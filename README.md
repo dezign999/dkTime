@@ -1,4 +1,4 @@
-# dkTime for Watchy by SQFMI
+# dkTime for SQFMI's Watchy
 This custom watch face is a labor of love and fan service to Nintendo. Donkey Kong was the first game I fell in love with, and I made sure to tell Mr. Shigeru Miyamoto this when I met him at the US unveiling of the Nintendo 64 in Los Angeles California.
 
 dkTime is a port of my Pebble and Fitbit watch face of the same name. For the Watchy version, pressing the top left button will toggle 12 hour and 24 hour time display. Pressing the top and bottom right buttons will invoke a random Donkey Kong animation. Donkey Kong will perform 1 of 3 animation sequences every minute. 
