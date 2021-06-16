@@ -1,3 +1,4 @@
+//Derived from peerdavid's source at: https://github.com/peerdavid/Watchy
 #include "Watchy_Base.h"
 
 RTC_DATA_ATTR int16_t alarm_timer = -1;
