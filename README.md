@@ -5,4 +5,4 @@ dkTime is a port of my Pebble and Fitbit watch face of the same name. For the Wa
 
 Please note that while Donkey Kong is animating, button presses will be ignored for up to 2 seconds after the animation has completed. The last 2 seconds are screen udpates to reduce the Epaper residual ghosting.
 
-Thanks to everyone in the SQFMI Discord for help in getting to this point, and an extra special thanks to Peerdavid for his code that I "borrowed" from his Watchy_base.cpp and Watchy_base.h files located at: https://github.com/peerdavid/Watchy
+Thanks to everyone in the SQFMI Discord for the help, and an extra special thanks to Peerdavid for his code that I "borrowed" from his Watchy_base.cpp and Watchy_base.h files located at: https://github.com/peerdavid/Watchy
