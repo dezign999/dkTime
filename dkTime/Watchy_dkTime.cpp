@@ -31,8 +31,16 @@ void WatchyDkTime::drawWatchFace(){
     //Minute
     display.drawBitmap(105, 33, dk_nums[currentTime.Minute/10], 28, 26, GxEPD_WHITE); //first digit
     display.drawBitmap(137, 33, dk_nums[currentTime.Minute%10], 28, 26, GxEPD_WHITE); //second digit
-    
-    drawAnim();
+
+    if(playAnim) {
+      drawAnim();
+      playAnim = false;
+    } else {
+      //Static DK
+      display.fillRect(0, 73, 200, 124, GxEPD_BLACK);
+      display.drawBitmap(7, 76, dk_anim1[0], 182, 121, GxEPD_WHITE);
+      display.display(true);
+    }
 }
 
 void WatchyDkTime::drawAnim(){
